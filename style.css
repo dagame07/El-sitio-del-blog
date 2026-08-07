@@ -2,4 +2,9 @@ html {
     height: 100%;
     width: 100%;
   }
+
+body {
+  background-color: rgb(53, 49, 69);
+  color: rgb(243, 217, 123);
+  }
   
