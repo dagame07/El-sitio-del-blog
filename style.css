@@ -7,4 +7,24 @@ body {
   background-color: rgb(53, 49, 69);
   color: rgb(243, 217, 123);
   }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(197, 118, 89);
+}
+
+li a {
+  display: block;
+  color: cornsilk;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555555;
+  color: cornsilk;
+}
   
