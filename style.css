@@ -54,7 +54,7 @@ footer {
 
 .imagen1{
   width: auto;
-  height: 30px;
+  height: 50px;
 }
 
 .logoContainer {
@@ -78,4 +78,9 @@ footer {
 .columna {
   flex: 1;
 }
-  
+
+.imagen2{
+  width: auto;
+  height: 150px;
+  padding-left: 100px;
+}
