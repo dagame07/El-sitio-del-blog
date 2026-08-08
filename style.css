@@ -9,7 +9,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: auto;
+  min-height: 100vh;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
@@ -44,11 +44,12 @@ header {
 }
 
 footer {
-  position: absolute;
+  
   color: cornsilk;
   background-color: #555555;
   padding: 5px;
   width: 100%;
+  box-sizing: border-box
 }
 
 .imagen1{
