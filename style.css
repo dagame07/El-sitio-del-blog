@@ -6,6 +6,11 @@ html {
 body {
   background-color: rgb(53, 49, 69);
   color: rgb(243, 217, 123);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   ul {
@@ -36,5 +41,40 @@ header {
   background-color: #555555;
   padding: 5px;
 
+}
+
+footer {
+  position: absolute;
+  color: cornsilk;
+  background-color: #555555;
+  padding: 5px;
+  width: 100%;
+}
+
+.imagen1{
+  width: auto;
+  height: 30px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.logoContainer h1{
+  margin: 0;
+}
+
+.contColumna {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 20px;
+}
+
+.columna {
+  flex: 1;
 }
   
